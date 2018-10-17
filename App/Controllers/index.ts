@@ -1,1 +1,1 @@
-export { QuestionsController } from "./questions"
+export { QuestionsController } from "./questionscontroller"

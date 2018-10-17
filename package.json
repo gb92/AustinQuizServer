@@ -8,7 +8,8 @@
     "tsc": "tsc",
     "lint": "tslint --project tsconfig.json",
     "lint-fix": "lint --fix",
-    "start": "lint && tsc && node build/server.js"
+    "copyData": "cp App/Data/questions.json build/Data/questions.json",
+    "start": "npm run lint && npm run tsc && npm run copyData && node build/server.js"
   },
   "repository": {
     "type": "git",
