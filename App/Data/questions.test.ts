@@ -89,5 +89,5 @@ test("Checking answer returns false when incorrect answer provided", () => {
 })
 
 test("Get Num Questions actually returns the correct number", () => {
-    expect(questions.getNumQuestions()).toBe(testQuestions.length) 
+    expect(questions.getNumQuestions()).toBe(testQuestions.length)
 })
